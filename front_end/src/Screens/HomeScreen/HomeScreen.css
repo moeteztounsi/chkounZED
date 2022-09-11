@@ -1,0 +1,15 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.general-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    padding:5em 2em;
+    row-gap: 100px;
+}
